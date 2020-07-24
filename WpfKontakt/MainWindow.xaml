@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfKontakt"
         mc:Ignorable="d"
-        Title="Imenik" Height="500" Width="800">
+        Title="Imenik" Height="500" Width="800" Closed="Sacuvaj">
     <DockPanel>
         <StackPanel DockPanel.Dock="Top">
             <TextBlock Text="Vas imenik" FontSize="24" FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center"/>
