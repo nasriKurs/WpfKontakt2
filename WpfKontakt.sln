@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfKontakt", "WpfKontakt\WpfKontakt.csproj", "{8B35C4EB-611D-40CD-9E88-8834FD6587BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B35C4EB-611D-40CD-9E88-8834FD6587BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B35C4EB-611D-40CD-9E88-8834FD6587BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B35C4EB-611D-40CD-9E88-8834FD6587BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B35C4EB-611D-40CD-9E88-8834FD6587BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADB5B53D-2CEC-4BB4-9BAF-E5070E1F540A}
+	EndGlobalSection
+EndGlobal

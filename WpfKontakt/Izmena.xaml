@@ -1,0 +1,40 @@
+﻿<Window x:Class="WpfKontakt.Izmena"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfKontakt"
+        mc:Ignorable="d"
+        Title="Izmena postojeceg kontakta" Height="500" Width="800">
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top" HorizontalAlignment="Center">
+            <TextBlock Text="   Izmena kontakta" FontSize="42" FontWeight="Bold"/>
+            <WrapPanel HorizontalAlignment="Center">
+                <TextBlock Text="{Binding Ime}" FontSize="42" FontWeight="Bold"/>
+                <TextBlock Text="      "/>
+                <TextBlock Text="{Binding Prezime}" FontSize="42" FontWeight="Bold"/>
+            </WrapPanel>
+            <Label Margin="0, 20, 0, 30"/>
+            <WrapPanel>
+                <TextBlock Text="Novo Ime:        " FontSize="24" FontWeight="Bold" />
+                <TextBox Text="{Binding Ime, UpdateSourceTrigger=Explicit}" FontSize="24" MinWidth="250"/>
+            </WrapPanel>
+            <Label Margin="0, 10, 0, 10"/>
+            <WrapPanel>
+                <TextBlock Text="Novo Prezime: " FontSize="24" FontWeight="Bold" />
+                <TextBox Text="{Binding Prezime, UpdateSourceTrigger=Explicit}" FontSize="24" MinWidth="250"/>
+            </WrapPanel>
+            <Label Margin="0, 10, 0, 10"/>
+            <WrapPanel>
+                <TextBlock Text="Novi Broj tel:   " FontSize="24" FontWeight="Bold" />
+                <TextBox Text="{Binding BrojT, UpdateSourceTrigger=Explicit}" FontSize="24" MinWidth="250"/>
+            </WrapPanel>
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Bottom" Margin="0,50,0,0" HorizontalAlignment="Center">
+            <WrapPanel>
+                <Button FontSize="24" MinWidth="200" Margin="5, 0, 30,0" Click="Izmeni" >Izmeni</Button>
+                <Button FontSize="24"  MinWidth="200" Margin="30, 0, 5,0" Click="Odustani" >Odustani</Button>
+            </WrapPanel>
+        </StackPanel>
+    </DockPanel>
+</Window>
